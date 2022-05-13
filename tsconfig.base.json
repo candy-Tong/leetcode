@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "types": ["vite/client"],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "baseUrl": "./",
+  }
+}
