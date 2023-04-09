@@ -3,7 +3,7 @@ module.exports = {
   extends: [
     '@tencent/eslint-config-tencent',
     '@tencent/eslint-config-tencent/ts',
-    '@tencent/eslint-config-tencent/prettier'
+    '@tencent/eslint-config-tencent/prettier',
   ],
   rules: {
     '@typescript-eslint/naming-convention': ['off'],
@@ -19,5 +19,6 @@ module.exports = {
     'vue/max-attributes-per-line': 'off',
     'vue/singleline-html-element-content-newline': 'off',
     'vue/html-self-closing': 'off',
+    'no-plusplus': 'off',
   },
 };
